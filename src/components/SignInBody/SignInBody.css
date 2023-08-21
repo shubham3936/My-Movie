@@ -1,0 +1,42 @@
+.container{
+    background-color: blueviolet;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignIn_form{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 50px 40px;
+}
+.signin_title{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.SignIn_form >input,button{
+    margin: 10px 0;
+}
+.SignIn_form >input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+}
+.SignIn_form >button{
+    height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #9C34C2;
+    border: none;
+    color: #FFA500;
+}
+.signin_text{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+}

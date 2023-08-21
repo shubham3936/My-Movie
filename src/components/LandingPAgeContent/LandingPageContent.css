@@ -1,5 +1,5 @@
 .LandingPageContent_container{
-    background-color: blueviolet;
+    background-color: #9C34C2;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -13,8 +13,8 @@
 }
 .landingpagecontent_subtitle{
     font-size: 28px;
-    font-weight: 600;
-    margin: 2px 0;
+    font-weight: 700;
+    margin: 15px 0;
 }
 .landingpagecontent_desc{
     font-size: 20px;

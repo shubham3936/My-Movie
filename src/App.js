@@ -2,6 +2,7 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import LandingPage from './components/container/LandingPage/LandingPage';
+import SignIn from './components/SignIn/SignIn';
 
 function App() {
   const isUserLoggedIn=false;
@@ -10,6 +11,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={isUserLoggedIn ? " " :<LandingPage />}/>
+          <Route path='/sign-in' element={<SignIn />}/>
+
         </Routes>
       </BrowserRouter>  
     </div>

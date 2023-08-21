@@ -9,11 +9,12 @@
     width: 50px;
 }
 .navbar_button{
-    background-color: blueviolet;
-    color: rgb(246, 125, 26);
+    background-color: #9C34C2;
+    color: #FDA4AD;
     padding: 10px 16px;
     font-weight: 600;
     border-radius: 8px;
-    border: 1px solid rgb(246, 125, 26);
+    border: 1px solid #FFA500;
+    cursor: pointer;
 
 }
