@@ -8,7 +8,8 @@
 .SignIn_form{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #FFA500;
+    border-radius: 10px;
     padding: 50px 40px;
 }
 .signin_title{
@@ -35,8 +36,13 @@
     border: none;
     color: #FFA500;
 }
-.signin_text{
+.signin_text {
     text-align: center;
-    font-weight: 600;
     margin-top: 10px;
+    color: grey;
+}
+.signin_text > span {
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
 }
